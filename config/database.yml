@@ -1,0 +1,26 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: rail5yard_development
+  username: <%= ENV['DATABASE_USER_NAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  host: localhost
+  port: 5433
+
+test:
+  <<: *default
+  database: rail5yard_test
+  username: <%= ENV['DATABASE_USER_NAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  host: localhost
+  port: 5433
+
+production:
+  <<: *default
+  database: rail5yard_production
+  username: rail5yard
+  password: <%= ENV['RAIL5YARD_DATABASE_PASSWORD'] %>
