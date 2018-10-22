@@ -22,5 +22,5 @@ test:
 production:
   <<: *default
   database: rail5yard_production
-  username: rail5yard
+  username: <%= ENV['DATABASE_USER_NAME'] %>
   password: <%= ENV['RAIL5YARD_DATABASE_PASSWORD'] %>
