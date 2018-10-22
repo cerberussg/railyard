@@ -1,0 +1,39 @@
+$PrimaryColor: #660000;
+
+.navbar .navbar-brand {
+  color: $PrimaryColor !important;
+  font-size: 82px;
+  margin-left: 25px;
+}
+
+.btn-brand {
+  background-color: $PrimaryColor;
+  border-color: $PrimaryColor;
+  color: #fff !important;
+}
+
+.monitoring-simple {
+  margin-top: 50px;
+  min-height: 325px;
+  background-color: $PrimaryColor;
+  color: #fff;
+  height: auto;
+}
+
+.simple-cells {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.icon-style {
+  text-align: left;
+  margin-top: 15px;
+  padding-right: 0px;
+}
+
+.text-style {
+  text-align: left;
+  margin-top: 15px;
+  font-size: 20px;
+}
