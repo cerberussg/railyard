@@ -19,22 +19,38 @@ $PrimaryColor: #660000;
   background-color: $PrimaryColor;
   color: #fff;
   height: auto;
+  .simple-cells {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+  }
+  .icon-style {
+    text-align: right;
+    margin-top: 15px;
+    padding-right: 0px;
+  }
+  .text-style {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 25px;
+  }
 }
 
-.simple-cells {
-  text-align: center;
-  font-size: 26px;
+.real-time {
   margin-top: 10px;
-}
-
-.icon-style {
-  text-align: right;
-  margin-top: 15px;
-  padding-right: 0px;
-}
-
-.text-style {
-  text-align: left;
-  margin-top: 15px;
-  font-size: 25px;
+  min-height: 300px;
+  color: $PrimaryColor;
+  height: auto;
+  .real-cell {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .btn-cell {
+    background-color: $PrimaryColor;
+    border-color: $PrimaryColor;
+    color: #fff;
+    margin-top: 110px;
+    font-size: 30px;
+    border-radius: 50%;
+  }
 }
