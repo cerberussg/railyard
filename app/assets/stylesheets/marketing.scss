@@ -1,0 +1,138 @@
+$PrimaryColor: #660000;
+
+body {
+  display: inline-grid;
+}
+
+.navbar .navbar-brand {
+  color: $PrimaryColor !important;
+  font-size: 72px;
+  margin-left: 25px;
+}
+
+.btn-brand {
+  background-color: $PrimaryColor;
+  border-color: $PrimaryColor;
+  color: #fff !important;
+  border-radius: 50%;
+}
+
+.monitoring-simple {
+  margin-top: 50px;
+  min-height: 300px;
+  background-color: $PrimaryColor;
+  color: #fff;
+  height: auto;
+  .simple-cells {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+  }
+  .icon-style {
+    text-align: center;
+    margin-top: 15px;
+    padding-right: 0px;
+  }
+  .text-style {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 25px;
+  }
+}
+
+.real-time {
+  margin-top: 10px;
+  min-height: 300px;
+  color: $PrimaryColor;
+  height: auto;
+  .real-cell {
+    text-align: center;
+    margin-top: 20px;
+    .real-list {
+      font-size: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      list-style-type: none;
+    }
+  }
+  .btn-cell {
+    background-color: $PrimaryColor;
+    border-color: $PrimaryColor;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .btn-cell:hover {
+    background-color: #dc3545;
+  }
+}
+
+.highlight-banner {
+  margin-top: 10px;
+  background-color: $PrimaryColor;
+  min-height: 115px;
+  height: auto;
+  color: #fff;
+  .highlight-cell {
+    margin-top: 15px;
+    .highlight-text {
+      font-size: 24px;
+    }
+  }
+}
+
+.mailing-list-cell {
+  color: $PrimaryColor;
+  min-height: 150px;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+  .email {
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .btn-cell:hover {
+    background-color: #dc3545;
+  }
+}
+
+.plans-cell {
+  min-height: 650px;
+  height: auto;
+  text-align: center;
+  color: $PrimaryColor;
+  hr {
+    background-color: $PrimaryColor
+  }
+  .plans-card {
+    margin-top: 50px;
+    background-color: $PrimaryColor;
+    color: #fff;
+    .btn-brand {
+      background-color: #fff;
+      border-color: $PrimaryColor;
+      color: $PrimaryColor !important;
+      border-radius: 50%;
+    }
+    .btn-brand:hover {
+      background-color: #dc3545;
+      color: #fff !important;
+    }
+    .card-list {
+      text-align: center;
+      list-style-type: none;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      .plans-icon {
+        text-align: left;
+      }
+    }
+  }
+
+  .plans-btn {
+    margin-top: 50px;
+  }
+}
