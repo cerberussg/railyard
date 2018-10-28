@@ -1,24 +1,23 @@
 # keep awake
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sign up for our service and keep an eye on your applications health, is it up or down?
+Are you using a service like Heroku? Keep the site awake with keep awake!
 
-Things you may want to cover:
+# Compatible Services
 
-* Ruby version
+- [ ] Amazon Web Services
+- [ ] Heroku
+- [ ] Apps Responding to HTTP Requests
 
-* System dependencies
+# Free Features
 
-* Configuration
+- [ ] Real Time Dashboard: Up/Down Status
+- [ ] Up to 3 users/ per account
+- [ ] First 3 Apps FREE
 
-* Database creation
+# Paid Features
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [ ] SMS Notifications
+- [ ] Email Notifications
+- [ ] Unlimited Users
+- [ ] Unlimited Apps
