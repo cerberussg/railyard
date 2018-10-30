@@ -1,0 +1,71 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/sgoyette/RoR/railyard/app/controllers/subscribers_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/sgoyette/RoR/railyard/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/sgoyette/RoR/railyard/spec/models/subscriber_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/sgoyette/RoR/railyard/app/models/subscriber.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/sgoyette/RoR/railyard/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/sgoyette/RoR/railyard/spec/views/subscribers/index.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1540863833
+  }
+}
