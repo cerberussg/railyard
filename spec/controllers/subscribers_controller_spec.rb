@@ -12,6 +12,12 @@ RSpec.describe SubscribersController, type: :controller do
   describe 'POST #create' do
     it 'joins mailing list' do
       post :create, params: {subscriber: FactoryBot.attributes_for(:subscriber)}
+      expect(response).to redirect_to root_path
+    end
+
+    it 'fails to join mailing list' do
+      post :create, params: {subscriber: FactoryBot.attributes_for(:subscriber,{email: nil})}
+      expect(response).to redirect_to root_path
     end
   end
 end

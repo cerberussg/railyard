@@ -8,7 +8,7 @@ class SubscribersController < ApplicationController
     if @subscriber.save
       redirect_to root_path, notice: "You have joined our mailing list."
     else
-      redirect_to root_path, notice: "Something wnet wrong and you could not join mailing list."
+      redirect_to root_path, notice: "Something went wrong and you could not join mailing list."
     end
   end
 
