@@ -1,6 +1,53 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/sgoyette/RoR/railyard/app/controllers/application_monitors_controller.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/sgoyette/RoR/railyard/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/sgoyette/RoR/railyard/spec/controllers/subscribers_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/sgoyette/RoR/railyard/app/controllers/subscribers_controller.rb": [
         1,
         1,
@@ -23,7 +70,18 @@
         null,
         null
       ],
-      "/Users/sgoyette/RoR/railyard/app/controllers/application_controller.rb": [
+      "/Users/sgoyette/RoR/railyard/spec/models/application_monitor_spec.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/sgoyette/RoR/railyard/app/models/application_monitor.rb": [
+        1,
+        null
+      ],
+      "/Users/sgoyette/RoR/railyard/app/models/application_record.rb": [
+        1,
         1,
         null
       ],
@@ -44,9 +102,17 @@
         1,
         null
       ],
-      "/Users/sgoyette/RoR/railyard/app/models/application_record.rb": [
+      "/Users/sgoyette/RoR/railyard/spec/views/application_monitors/dashboard.html.erb_spec.rb": [
+        1,
+        null,
         1,
         1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/sgoyette/RoR/railyard/spec/views/subscribers/index.html.erb_spec.rb": [
@@ -66,6 +132,6 @@
         null
       ]
     },
-    "timestamp": 1540864481
+    "timestamp": 1540954463
   }
 }

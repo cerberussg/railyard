@@ -1,0 +1,18 @@
+<h2 class="monitors-dashboard">Application Dashboard</h2>
+<div id="monitors-dashboard">
+  <% @monitors.to_a.push(ApplicationMonitor.new).each_slice(3) do |monitors| %>
+    <div class="row" style="position:relative;">
+      <% monitors.each do |monitor| %>
+        <% unless monitor.id.nil? %>
+          <%= render partial: monitor, locals: {monitor: monitor} %>
+        <% else %>
+          <% style = @monitors.empty? ? "position:absolute;top:125px;" :
+            "position:absolute;bottom:25px;" %>
+          <%= link_to am_new_path, {style: style, id: 'new_monitor'} do %>
+            <button class="btn btn-brand btn-circle btn-lg"><i class="fa fa-plus"></i></button>
+          <% end %>
+        <% end %>
+      <% end %>
+    </div>
+  <% end %>
+</div>

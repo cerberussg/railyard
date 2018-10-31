@@ -1,0 +1,2 @@
+class ApplicationMonitor < ApplicationRecord
+end
