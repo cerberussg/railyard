@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-11-03T20:41:37-04:00">2018-11-03T20:41:37-04:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-11-03T23:35:46-04:00">2018-11-03T23:35:46-04:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -32,8 +32,8 @@
   <a name="AllFiles"></a>
   <div>
     <b>11</b> files in total.
-    <b>76</b> relevant lines. 
-    <span class="green"><b>76</b> lines covered</span> and
+    <b>77</b> relevant lines. 
+    <span class="green"><b>77</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -83,9 +83,9 @@
       <tr>
         <td class="strong"><a href="#e3f01b1c26443a427cf49845de4393ef48fbe58e" class="src_link" title="app/models/application_monitor.rb">app/models/application_monitor.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>7</td>
         <td>6</td>
-        <td>5</td>
-        <td>5</td>
+        <td>6</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -248,7 +248,7 @@
         <li class="covered" data-hits="2" data-linenumber="5">
           <span class="hits">2</span>
           
-          <code class="ruby">    @monitors = ApplicationMonitor.all</code>
+          <code class="ruby">    @monitors = ApplicationMonitor.order(:application_name).page(params[:page])</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
@@ -580,8 +580,8 @@
     <h3>app/models/application_monitor.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>5</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -619,7 +619,13 @@
           <code class="ruby">  validates :time_interval, presence: true</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  paginates_per 9</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
           
           
           <code class="ruby">end</code>
@@ -1024,7 +1030,7 @@
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">    @monitors = ApplicationMonitor.all</code>
+          <code class="ruby">    @monitors = ApplicationMonitor.order(:application_name).page(params[:id])</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
@@ -1048,7 +1054,7 @@
         <li class="covered" data-hits="1" data-linenumber="9">
           <span class="hits">1</span>
           
-          <code class="ruby">    expect(rendered).to match /Application Dashboard/</code>
+          <code class="ruby">    expect(rendered).to match /Currently Monitoring Applications/</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">

@@ -41,7 +41,8 @@ body {
 
 .card {
   height: 200px;
-  color: $PrimaryColor;
+  color: #fff;
+  background-color: green;
   .btn-brand:hover {
     background-color: #dc3545;
   }
