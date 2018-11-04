@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="col-md-12 offset-md-4">
+    <h1>Add Application To Monitor</h1>
+    <%= form_with model: @monitor, class: "form-group", local: true do |form| %>
+      <div class="row">
+        <div class="col-md-4">
+          <%= form.label "Application Name" %>
+        </div>
+        <div class="col-md-8">
+          <%= form.text_field :application_name, placeholder: "Application Name",
+            size: 45, class: "app-name form-control" %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <%= form.label "Web Address" %>
+        </div>
+        <div class="col-md-8">
+          <%= form.text_field :web_address, placeholder: "Web Address", size: 45,
+            class: "web-address form-control" %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <%= form.label "Satus Frequency" %>
+        </div>
+        <div class="col-md-6">
+          <%= form.select :time_interval, ApplicationMonitor.time_intervals.keys, class: "time-interval form-control" %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 offset-md-4">
+          <%= form.submit "Create", class: "btn btn-brand" %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
