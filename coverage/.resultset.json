@@ -13,9 +13,27 @@
         null,
         null,
         1,
+        2,
+        null,
+        2,
+        2,
+        2,
+        null,
+        2,
+        null,
+        null,
+        null,
         null,
         1,
-        0,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        null,
+        1,
+        2,
         null,
         null
       ],
@@ -78,6 +96,10 @@
       ],
       "/Users/sgoyette/RoR/railyard/app/models/application_monitor.rb": [
         1,
+        1,
+        1,
+        1,
+        1,
         null
       ],
       "/Users/sgoyette/RoR/railyard/app/models/application_record.rb": [
@@ -132,6 +154,6 @@
         null
       ]
     },
-    "timestamp": 1540954463
+    "timestamp": 1541289605
   }
 }

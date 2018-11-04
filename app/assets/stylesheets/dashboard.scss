@@ -1,1 +1,26 @@
+.dashboard {
+  .row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+.btn.btn-brand.btn-circle {
+  height: 50px;
+}
+
+.title-css {
+  color: $PrimaryColor;
+}
+
+.card {
+  height: 180px;
+  color: $PrimaryColor;
+  .btn-brand:hover {
+    background-color: #dc3545;
+  }
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 300px;
+}
 
