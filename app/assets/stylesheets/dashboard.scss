@@ -1,7 +1,10 @@
+body {
+  width: 100%;
+}
 .dashboard {
   .row {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
 
@@ -15,7 +18,8 @@
 
 .card {
   height: 180px;
-  color: $PrimaryColor;
+  color: #fff;
+  background-color: #006600;
   .btn-brand:hover {
     background-color: #dc3545;
   }

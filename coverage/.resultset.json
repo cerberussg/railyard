@@ -3,6 +3,7 @@
     "coverage": {
       "/Users/sgoyette/RoR/railyard/app/controllers/application_monitors_controller.rb": [
         1,
+        1,
         null,
         1,
         2,
@@ -154,6 +155,6 @@
         null
       ]
     },
-    "timestamp": 1541289605
+    "timestamp": 1541292097
   }
 }

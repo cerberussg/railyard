@@ -1,4 +1,5 @@
 class ApplicationMonitorsController < ApplicationController
+  layout "application_monitor"
 
   def dashboard
     @monitors = ApplicationMonitor.all
