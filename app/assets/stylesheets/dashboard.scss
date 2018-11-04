@@ -12,7 +12,10 @@ body {
 
 .dash-row {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  .btn-circle {
+    margin-left: 10px;
+  }
 }
 
 .form-row {
@@ -21,6 +24,19 @@ body {
   font-size: 24px;
   color: $PrimaryColor;
   text-align: right;
+}
+
+.pagination {
+  .page-item.active {
+    .page-link {
+      background-color: $PrimaryColor;
+      border-color: $PrimaryColor;
+    }
+  }
+  .page-link {
+    border-color: $PrimaryColor;
+    color: $PrimaryColor;
+  }
 }
 
 .card {

@@ -3,4 +3,5 @@ class ApplicationMonitor < ApplicationRecord
   validates :application_name, presence: true
   validates :web_address, presence: true
   validates :time_interval, presence: true
+  paginates_per 9
 end

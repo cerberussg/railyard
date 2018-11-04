@@ -2,14 +2,15 @@
   <div class="card-body">
     <h5 class="card-title"><%= monitor.application_name %></h5>
     <p class="card-text">Status Frequency: <%= monitor.time_interval %></p>
-    <%= link_to application_monitor_path(monitor), {class:"btn btn-brand",
+    <%= link_to application_monitor_path(monitor), {class:"btn btn-brand btn-sm",
       method: :delete, data: { confirm: 'Are you sure?',
           toggle:"tooltip",
           placement:"top",
           title:"Delete"},
-          style: "position:absolute;bottom:20px;"} do %>
+          style: "position:absolute;bottom:16px;right:10px;"} do %>
       <i class="fa fa-trash"></i>
     <% end %>
+    <i class="fa fa-check-circle fa-lg" style="position:absolute;bottom:20px;left:10px;color:green;"></i>
   </div>
 </div>
 

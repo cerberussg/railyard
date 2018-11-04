@@ -2,7 +2,7 @@ class ApplicationMonitorsController < ApplicationController
   layout "application_monitor"
 
   def dashboard
-    @monitors = ApplicationMonitor.all
+    @monitors = ApplicationMonitor.order(:application_name).page(params[:page])
   end
 
   def new

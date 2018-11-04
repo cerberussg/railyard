@@ -4,6 +4,7 @@
   </div>
   <div class="row dash-row">
     <div class="col-md-10 offset-md-1">
+      <%= paginate @monitors %>
       <div class="content" id="monitors-dashboard">
         <%= @monitors.to_a.push(ApplicationMonitor.new).each_slice(3) do |monitors| %>
           <div class="row dash-row" style="position:relative;">
@@ -20,6 +21,7 @@
           </div>
         <% end %>
       </div>
+      <%= paginate @monitors %>
     </div>
   </div>
 </div>
